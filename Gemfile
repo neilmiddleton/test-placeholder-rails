@@ -9,6 +9,7 @@ gem 'pg'
 gem 'unicorn'
 gem 'rack-timeout'
 gem 'foreman'
+gem 'newrelic_rpm'
 
 
 # Gems used only for assets and not required
