@@ -1,5 +1,5 @@
 class HomeController < ApplicationController
   def index
-    sleep 10
+    sleep (ENV["SLEEP_FOR"] || 2)
   end
 end
