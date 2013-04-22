@@ -1,0 +1,13 @@
+# SQLite version 3.x
+#   gem install sqlite3
+#
+#   Ensure the SQLite 3 gem is defined in your Gemfile
+#   gem 'sqlite3'
+development:
+  adapter: postgresql
+  database: unicorn_test_dev
+  host: localhost
+test:
+  adapter: postgresql
+  database: unicorn_test_test
+  host: localhost
