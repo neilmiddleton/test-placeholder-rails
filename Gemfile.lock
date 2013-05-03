@@ -1,9 +1,9 @@
 GIT
   remote: git://github.com/kch/rack-timeout.git
-  revision: 4fee199128ba809e387d0dfbbce5dde25f900fca
-  branch: debug
+  revision: e71fb863570d5e6563317152a4c48537b8e4c1fa
+  branch: heroku
   specs:
-    rack-timeout (0.0.3)
+    rack-timeout (0.1.0beta)
 
 GEM
   remote: https://rubygems.org/
