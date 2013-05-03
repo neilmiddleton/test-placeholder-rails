@@ -1,1 +1,1 @@
-Rack::Timeout.timeout = (ENV["RACK_TIMEOUT"].to_i || 30)
+Rack::Timeout.timeout = ENV.fetch("RACK_TIMEOUT", 30).to_i

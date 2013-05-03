@@ -1,3 +1,3 @@
-timeout (ENV["UNICORN_TIMEOUT"].to_i || 30)
-worker_processes (ENV["WEB_CONCURRENCY"].to_i || 2)
+timeout ENV.fetch("UNICORN_TIMEOUT", 30).to_i
+worker_processes ENV.fetch("WEB_CONCURRENCY", 2).to_i
 preload_app true
