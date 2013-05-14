@@ -9,7 +9,6 @@ gem 'pg'
 gem 'unicorn'
 gem 'rack-timeout', :git => "git://github.com/kch/rack-timeout.git", :branch => 'heroku'
 gem 'foreman'
-gem 'newrelic_rpm'
 
 
 # Gems used only for assets and not required
