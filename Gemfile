@@ -7,7 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'pg'
 gem 'unicorn'
-gem 'rack-timeout', :git => "git://github.com/kch/rack-timeout.git", :branch => 'heroku'
+gem 'rack-timeout'
 gem 'foreman'
 
 
